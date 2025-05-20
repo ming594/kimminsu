@@ -151,7 +151,6 @@ section {
 .part3 {
     width: 85%;
     margin: 0 auto;
-    
 }
 
 .part3 h1 {
@@ -165,6 +164,10 @@ section {
     font-family: "warnock-pro-display", serif;
     font-weight: 300;
     font-style: italic;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 
 }
 
@@ -213,7 +216,7 @@ section {
 
 .part5 {
     width: 85%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     align-items: flex-end;
 }
@@ -239,7 +242,7 @@ section {
 
 .part6 {
     width: 85%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -249,6 +252,7 @@ section {
 }
 .part6 h1 {
     word-break: keep-all;
+    justify-content: flex-start;
 }
 /* 
 .part6 h1 {
@@ -363,7 +367,7 @@ section {
     margin: 0 auto;
     z-index: 1;
     pointer-events: none;
-    background-color: #e4e4e4;
+    /* background-color: #e4e4e4; */
     filter: blur(80px);
     display: flex;
     align-items: center;
@@ -407,7 +411,7 @@ section {
 }
 
 .part8 {
-    
+    height: auto;
 }
 
 .part8-button {
@@ -476,6 +480,7 @@ section {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    padding-bottom: 150px;
 }
 
 .scroll-top {
@@ -507,4 +512,12 @@ section {
     50% {
         transform: scale(2);
     }
+}
+
+.imac3:hover .open {
+    opacity: 1;
+}
+
+.imac3:hover .close {
+    opacity: 0;
 }

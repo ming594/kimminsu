@@ -129,7 +129,7 @@
 
     .part6 h1 {
         order: 1;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         text-align: center;
         font-size: 5rem;
     }
@@ -170,6 +170,12 @@
     .ticker span {
         margin-bottom: 100px;
     }
+    .part1 h3::before {
+        left : 0;
+        width: 50px;
+        height: 50px;
+        top: 52%;
+    }
 
 }
 
@@ -181,6 +187,9 @@
         height: 100%;
         margin: 45px auto;
     }
+    .part1 h3::before {
+        left: -40px;
+    }
 
 }
 
@@ -191,8 +200,14 @@
     section {
         padding: 0;
     }
+    .parttext h1 {
+        margin-top: 30px;
+    }
     .part1 , .part2, .part3, .part7{
         padding: 9rem 0;
+    }
+    .part5, .part6 {
+        margin: 0 auto;
     }
     .part1 h1, .part1 h3 {
         font-size: 8rem;
@@ -231,6 +246,17 @@
 .part8 .footer {
     margin-top: 20px;
 }
+.part1 h3::before {
+    width: 30px;
+    height: 30px;
+}
 }
 
-@media screen and (max-width : 400px) {}
+
+@media screen and (max-width : 400px) {
+    .part1 h3::before {
+        left: -40px;
+        width: 20px;
+        height: 20px;
+    }
+}

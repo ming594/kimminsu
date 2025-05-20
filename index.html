@@ -20,10 +20,10 @@
 
 
     <meta property="og:type" content="website"> 
-    <meta property="og:site_name" content="Beyond">
-    <meta property="og:title" content="Beyond">
-    <meta property="og:description" content="Beyond the Ordinary"> 
-    <meta property="og:image" content="image/titleimage.jpg">
+    <meta property="og:site_name" content="BEYOND">
+    <meta property="og:title" content="BEYOND">
+    <meta property="og:description" content="공감하는 영상편집자 김민수입니다."> 
+    <meta property="og:image" content="image/main.jpg">
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="300">
     <link rel="icon" href="favicon.ico">
@@ -183,15 +183,6 @@
         const closeImg = document.querySelector('.close');
         const openImg = document.querySelector('.open');
 
-        closeImg.addEventListener('mouseenter', () => {
-            openImg.style.opacity = '1';
-            closeImg.style.opacity = '0';
-        });
-
-        closeImg.addEventListener('mouseleave', () => {
-            openImg.style.opacity = '0';
-            closeImg.style.opacity = '1';
-        });
 
         const highlightText = document.querySelector('.highlight-text');
         window.addEventListener('scroll', () => {
